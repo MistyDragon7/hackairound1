@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "hackairound1"
+version = "0.1.0"
+description = ""
+authors = ["MistyDragon7 <120657456+MistyDragon7@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8, <3.12"
+flask = "^3.0.0"
+uagents = "^0.6.2"
+twilio = "^8.9.1"
+asyncio = "^3.4.3"
+requests = "^2.31.0"
+python-dotenv = "^1.0.0"
+datetime = "^5.2"
+matplotlib = "3.7.0"
+mysql = "^0.0.3"
+mysql-connector-python = "^8.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
