@@ -69,4 +69,8 @@ async def get_temperature(ctx: Context):
         return
 
 if __name__ == "__main__":
+<<<<<<< HEAD
     temp_bot.run()
+=======
+    temp_bot.run()
+>>>>>>> 381c6c5177b8e69a8f2934d3cd349f80c6296dee
